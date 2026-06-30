@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5b0313/v1
+canonical_location: https://kanripo.org/bkk/KR5b0313/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 上清諸真章頌
+  identifiers:
+    alt_id:
+    - DZ0608
+  date: '2015-08-29 00:16:13.548706'
+  source:
+    repository: kanripo
+    path: KR5b0313
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0313_000.yaml, hash: 'sha256:62a3f7322e13885a8ce06a537a023d86a2fda9e4c5ae5a48739b9e55ee61763d'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0313_000.markers.yaml, hash: 'sha256:07102697224c0b30b688528b791cde9b0ccf40c5ea345e8f36e2c214bd31ab19'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0313_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 3836
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:bbd29f1bfb3e50bb7e31fcde65e5346e80270c912fe37be88f36d0a0cd22b509
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
